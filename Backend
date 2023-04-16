@@ -72,12 +72,3 @@ def get():
         print("Tidak ada pemain terdaftar di leaderboard.")
 
 app.run(host='0.0.0.0', port=3000)
-
-while True:
-    print("SELAMAT DATANG DI GAME GUNTING KERTAS BATU")
-    print("Silakan pilih menu:")
-    print("1. Login")
-    print("2. Register")
-    print("3. keluar")
-
-    choice = input("Pilihan anda: ")
